@@ -17,10 +17,6 @@ npm run heroku-postbuild && npm run start # In order to build and run the angula
 ```
 By default, the app on development mode runs on localhost:4200 and the app on production mode on localhost:8080
 
-## Live demo
-
-Also, a live demo of the tech test is accessible from the following link: http://item-manager-tech-test.herokuapp.com/home
-
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
