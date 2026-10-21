@@ -17,6 +17,16 @@ npm run heroku-postbuild && npm run start # In order to build and run the angula
 ```
 By default, the app on development mode runs on localhost:4200 and the app on production mode on localhost:8080
 
+## Live demo
+
+https://saraybalbuena.github.io/item-manager/
+
+The demo is hosted on GitHub Pages from the `gh-pages` branch. To update it, build with the Pages base path and publish the contents of `dist/item-manager` to that branch:
+
+```
+npm run ng build -- --prod --base-href /item-manager/
+```
+
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
